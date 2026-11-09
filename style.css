@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+ 
+#main-title {
+  text-align: center;
+  color: darkblue;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 2px solid darkblue;
+  border-radius: 8px;
+}
+ 
+.card {
+  background-color: #adb1db;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+ 
+.featured {
+  border: 2px solid darkblue;
+  border-radius: 8px;
+}
+ 
+.card-title {
+  color: cyan;
+}
+ 
+.highlight {
+  color: gold;
+  font-weight: bold;
+}
+ 
