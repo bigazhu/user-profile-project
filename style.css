@@ -1,37 +1,90 @@
 * {
   box-sizing: border-box;
 }
- 
+
+/* my colors: darkblue #adb1db #f0f1fa #1a1a2e */
+
+body {
+  background-color: #f0f1fa;
+  font-family: Arial, sans-serif;
+  color: #1a1a2e;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(35, 35, 38);
+  text-align: center;
+  padding: 20px;
+}
+
+#page-title {
+  color: #2133d8;
+  font-family: Arial, serif;
+  font-size: 48px;
+}
+
 #main-title {
   text-align: center;
-  color: darkblue;
+  color: rgb(1, 255, 170);
   width: 500px;
   margin: 0 auto;
   margin-bottom: 30px;
   padding: 10px;
-  border: 2px solid darkblue;
+  border: 2px solid rgb(24, 142, 71);
   border-radius: 8px;
 }
- 
+
+main {
+  text-align: center;
+}
+
 .card {
-  background-color: #adb1db;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  text-align: left;
+  background-color: #22be9f;
   padding: 20px;
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-}
- 
-.featured {
-  border: 2px solid darkblue;
+  margin: 10px;
+  border: 2px solid rgb(35, 35, 38);
   border-radius: 8px;
 }
- 
-.card-title {
-  color: cyan;
+
+.featured {
+  border: 2px solid rgb(235, 168, 35);
+  border-radius: 8px;
 }
- 
+
+.card-title {
+  color: rgb(244, 155, 0);
+}
+
+.subheading {
+  color: rgb(35, 35, 38);
+  text-transform: uppercase;
+}
+
+.profile-img {
+  width: 150px;
+  border: 3px solid rgb(49, 170, 16);
+  border-radius: 8px;
+}
+
 .highlight {
-  color: gold;
+  color: rgb(35, 35, 38);
   font-weight: bold;
 }
- 
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f1fa;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(35, 35, 38);
+  color: #f0f1fa;
+  padding: 20px;
+}
